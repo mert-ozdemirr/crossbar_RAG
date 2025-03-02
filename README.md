@@ -115,6 +115,8 @@ The results clearly favor the **Gemini 1.5** models and raise concerns about the
 
 Moreover, employing various prompt engineering strategies for both system and user prompts, as well as transitioning from JSON-based to natural-language chunk structures, may further influence performance. Nonetheless, these findings demonstrate that smaller models are insufficient for this use case, while the **Gemini 1.5** models offer a promising solution.
 
+**Important Note:** This information is current as of January 21, 2025. The documentation will be updated later as the project evolves.
+
 ## Technologies and Tools
 
 The implementation is primarily developed in **Python**, utilizing powerful libraries from **Ollama** and **Hugging Face**. These libraries have played a crucial role in facilitating efficient integration with modern AI models, streamlining both the development and testing processes. **ChromaDB** has been used as the vector store for embeddings thus far; however, alternative tools will be explored to determine the most effective solution for future use.
